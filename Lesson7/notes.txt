@@ -1,0 +1,5 @@
+Several Keyboard listeners as well.
+See more here: https://vuejs.org/v2/guide/events.html#Key-Modifiers
+Possible: to listen for specific key strockes, such as enteror alt and enter, like this: ".alt.enter"
+
+Code here just examplifies how to get input from text input field. 

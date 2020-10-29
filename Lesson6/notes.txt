@@ -1,0 +1,4 @@
+Event modifiers: https://vuejs.org/v2/guide/events.html#Event-Modifiers 
+For instance:
+".once" to only listen once to clicks on a certain button
+".prevent" to prevent some href link to execute default behavior and not open the website in the href. 
