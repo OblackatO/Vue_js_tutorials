@@ -1,0 +1,36 @@
+# Index 
+- Lesson 1 : The Vue instance
+- Lesson 2 : Data & Methods
+- Lesson 3 : Data Binding
+- Lesson 4 : Events
+- Lesson 5 : Event Modifiers
+- Lesson 6 : Keyboard Events
+- Lesson 7 : Two-Way Data binding
+- Lesson 8 : Computed Properties
+- Lesson 9 : Dynamic CSS classes
+- Lesson 10 : Conditionals
+- Lesson 11 : Looping with v-for
+- Lesson 12 : Exercise with the technical skills acquired   
+Each part of the exercise matches a specific skill *(this DOES not make part of the tutorial)*
+What I can do with my current skills:
+    - Login page:
+	- Vue instance : OK
+		- Create a simple Vue instance and use it.
+	- Data and methods: OK
+		- user name and password, methods to verify its validity
+	- Data Binding: OK (for init message)
+		- Message of day in the Login page for data binding
+	- Events && Events modifiers: OK
+		- Login click
+	- KeyBoard events: OK
+		- Listen to specific key binding and execute some operation
+	- Two Away Data binding: OK
+		- Ok for username and pwd
+	- Computed Properties: OK
+		- Ok to hash pwd of user and perhaps user name two 
+	- Dynamic CSS classes: OK
+		- Display something based on the value of some var
+	- Conditionals: OK
+		- Display help message to login with conditionals
+	- Looping with v-for:OK 
+		- Loop to display all available countries to login.

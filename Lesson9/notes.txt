@@ -1,0 +1,26 @@
+# From https://stackoverflow.com/questions/44350862/method-vs-computed-in-vue
+
+-When to use methods
+To react to some event happening in the DOM
+To call a function when something happens in your component.
+You can call a method from computed properties or watchers.
+
+-When to use computed properties
+You need to compose new data from existing data sources
+You have a variable you use in your template that’s built from one or more data properties
+You want to reduce a complicated, nested property name to a more readable and easy to use one (but update it when the original property changes)
+You need to reference a value from the template. In this case, creating a computed property is the best thing, because it’s cached.
+You need to listen to changes of more than one data property
+##################################################################################################################################################
+
+One of difference between computed and method. Suppose we have a function which will return counter value.(counter is just variable). Let's look how function behaves in both computed and method
+
+Computed
+
+At first time of execution the code inside the function will be executed and vuejs will store the counter value in cache(for accessing faster). But when we are again calling the function vuejs will not again execute the code written inside of that function. It first checks any changes made to the counter or not. If any changes made then only it will re-execute the code which is inside that function. If there are no changes made to the counter vuejs will not again execute the function. It will simply return the previous result from the cache.
+
+Method
+
+This is just like a normal method in the javascript. Whenever we call the method it will always execute the code inside the function irrespective of changes made to the counter.
+
+Method will always reexecutes the code irrespective of changes in the code. where as computed will reexecute the code then only if one of it's dependency's values changed. Otherwise it will give us the previous result from the cache without reexecuting
