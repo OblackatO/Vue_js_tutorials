@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VueJS Tutorials</title>
+        <link href="styles.css" rel="stylesheet" />
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="vue-app">
+            <button @click="counter++">Add 1</button>
+            <p>The button above has been clicked {{ counter }} times.</p>
+            <br>
+            <label>Utilisateur:</label>
+            <input type="text" @keyup="log_user_strock" v-model="username" placeholder="Utilisateur">
+            <label>Password:</label>
+            <input type="password" @keyup="log_pwd_strock" v-model="password" placeholder="Mot de Passe">
+            <button @click="print_login_credentials">Login</button>
+            <br>
+            <span>{{username}}</span>
+            <br>
+            <span>{{password}}</span>
+          </div>
+    <script src="app.js"></script>      
+    </body>
+</html>

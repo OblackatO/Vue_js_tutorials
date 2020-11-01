@@ -1,0 +1,23 @@
+Each part of the exercise matches a specific skill *(this DOES not make part of the tutorial)*
+What I can do with my current skills:
+    - Login page:
+	- Vue instance : OK
+		- Create a simple Vue instance and use it.
+	- Data and methods: OK
+		- user name and password, methods to verify its validity
+	- Data Binding: OK (for init message)
+		- Message of day in the Login page for data binding
+	- Events && Events modifiers: OK
+		- Login click
+	- KeyBoard events: OK
+		- Listen to specific key binding and execute some operation
+	- Two Away Data binding: OK
+		- Ok for username and pwd
+	- Computed Properties: OK
+		- Ok to hash pwd of user and perhaps user name two 
+	- Dynamic CSS classes: OK
+		- Display something based on the value of some var
+	- Conditionals: OK
+		- Display help message to login with conditionals
+	- Looping with v-for:OK 
+		- Loop to display all available countries to login.
